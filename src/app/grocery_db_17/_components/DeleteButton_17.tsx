@@ -1,9 +1,9 @@
-import { removeUser } from '@/actions/user.action_17'
+import { removeGrocery } from '@/actions/grocery.action_17'
 
-const DeleteButton_17 = ({ id }: { id: number }) => {
-  const removeUserWithId = removeUser.bind(null, id)
+const DeleteButton_17 = ({ id }: { id: string }) => {
+  const removeGroceryWithId = removeGrocery.bind(null, id)
   return (
-    <form action={removeUserWithId}>
+    <form action={removeGroceryWithId}>
       <input type='hidden' name='name' value='random' />
       <button
         type='submit'

@@ -29,7 +29,13 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "src/app/grocery_17/page.jsx"
+    "src/app/grocery_17/page.jsx",
+    "src/app/grocery_17/_components/Form_17.jsx",
+    "src/app/grocery_17/_components/Items_17.jsx",
+    "src/app/grocery_17/_components/SingleItem_17.jsx",
+    "src/app/grocery_db_17/_components/SingleItem_17.jsx",
+    "src/app/grocery_db_17/_components/Items_17.jsx",
+    "src/app/grocery_db_17/_components/Form_17.jsx"
   ],
   "exclude": ["node_modules"]
 }

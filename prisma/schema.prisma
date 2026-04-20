@@ -26,3 +26,9 @@ model Post {
   author    User    @relation(fields: [authorId], references: [id]) 
   authorId  Int
 } 
+
+model Grocery{
+  id String @id @default(uuid())
+  name String
+  completed Boolean @default(false)
+}
