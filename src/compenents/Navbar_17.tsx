@@ -7,7 +7,8 @@ const Navbar_17 = () => {
       <Link href='/Counter_17'>Counter_17</Link>
       <Link href='/Tours_17'>Tours_17</Link>
       <Link href='/Actions_17'>Actions_17</Link>
-      <Link href='/users_db_17'>users_db_17</Link>
+      <Link href='/users_db_17'>Users_db_17</Link>
+      <Link href='/grocery_17'>Grocery_17</Link>
     </nav>
   )
 }
