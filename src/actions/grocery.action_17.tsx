@@ -24,8 +24,8 @@ export const createGrocery = async (formData: FormData) => {
   }
 }
 
-export const removeGrocery = async (formData: FormData) => {
-  const id = formData.get('id') as string
+export const removeGrocery = async (id: string, formData: FormData) => {
+  // const id = formData.get('id') as string
   await prisma.grocery.delete({ where: { id } })
   revalidatePath('/grocery_db_17')
 }
