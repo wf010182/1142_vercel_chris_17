@@ -57,34 +57,11 @@ const NavbarMain_17 = () => {
           <MenubarContent>
             <MenubarGroup>
               <MenubarItem>
-                Undo <MenubarShortcut>⌘Z</MenubarShortcut>
+                <Link href='/blog_17'>Blog_17</Link>
               </MenubarItem>
               <MenubarItem>
-                Redo <MenubarShortcut>⇧⌘Z</MenubarShortcut>
+                <Link href='/blog_db_17'>Blog_db_17</Link>
               </MenubarItem>
-            </MenubarGroup>
-            <MenubarSeparator />
-            <MenubarGroup>
-              <MenubarSub>
-                <MenubarSubTrigger>Find</MenubarSubTrigger>
-                <MenubarSubContent>
-                  <MenubarGroup>
-                    <MenubarItem>Search the web</MenubarItem>
-                  </MenubarGroup>
-                  <MenubarSeparator />
-                  <MenubarGroup>
-                    <MenubarItem>Find...</MenubarItem>
-                    <MenubarItem>Find Next</MenubarItem>
-                    <MenubarItem>Find Previous</MenubarItem>
-                  </MenubarGroup>
-                </MenubarSubContent>
-              </MenubarSub>
-            </MenubarGroup>
-            <MenubarSeparator />
-            <MenubarGroup>
-              <MenubarItem>Cut</MenubarItem>
-              <MenubarItem>Copy</MenubarItem>
-              <MenubarItem>Paste</MenubarItem>
             </MenubarGroup>
           </MenubarContent>
         </MenubarMenu>

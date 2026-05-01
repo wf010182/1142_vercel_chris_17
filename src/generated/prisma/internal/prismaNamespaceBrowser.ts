@@ -53,7 +53,10 @@ export const AnyNull = runtime.AnyNull
 export const ModelName = {
   User: 'User',
   Post: 'Post',
-  Grocery: 'Grocery'
+  Grocery: 'Grocery',
+  blog_17: 'blog_17',
+  Category_17: 'Category_17',
+  Shop_17: 'Shop_17'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -99,6 +102,42 @@ export const GroceryScalarFieldEnum = {
 } as const
 
 export type GroceryScalarFieldEnum = (typeof GroceryScalarFieldEnum)[keyof typeof GroceryScalarFieldEnum]
+
+
+export const Blog_17ScalarFieldEnum = {
+  id: 'id',
+  title: 'title',
+  descrip: 'descrip',
+  category: 'category',
+  img: 'img',
+  remote_img: 'remote_img'
+} as const
+
+export type Blog_17ScalarFieldEnum = (typeof Blog_17ScalarFieldEnum)[keyof typeof Blog_17ScalarFieldEnum]
+
+
+export const Category_17ScalarFieldEnum = {
+  cid: 'cid',
+  cname: 'cname',
+  size: 'size',
+  image_url: 'image_url',
+  remote_image_url: 'remote_image_url',
+  link_url: 'link_url'
+} as const
+
+export type Category_17ScalarFieldEnum = (typeof Category_17ScalarFieldEnum)[keyof typeof Category_17ScalarFieldEnum]
+
+
+export const Shop_17ScalarFieldEnum = {
+  pid: 'pid',
+  pname: 'pname',
+  cat_id: 'cat_id',
+  price: 'price',
+  img_url: 'img_url',
+  remote_img_url: 'remote_img_url'
+} as const
+
+export type Shop_17ScalarFieldEnum = (typeof Shop_17ScalarFieldEnum)[keyof typeof Shop_17ScalarFieldEnum]
 
 
 export const SortOrder = {

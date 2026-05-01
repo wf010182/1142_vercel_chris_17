@@ -11,4 +11,7 @@
 export type * from './models/User'
 export type * from './models/Post'
 export type * from './models/Grocery'
+export type * from './models/blog_17'
+export type * from './models/Category_17'
+export type * from './models/Shop_17'
 export type * from './commonInputTypes'

@@ -32,3 +32,30 @@ model Grocery{
   name String
   completed Boolean @default(false)
 }
+
+model blog_17 {
+  id         Int     @id
+  title      String? @db.VarChar(255)
+  descrip    String?
+  category   String? @db.VarChar(255)
+  img        String?
+  remote_img String?
+}
+
+model Category_17 {
+  cid              Int     @id
+  cname            String? @db.VarChar(255)
+  size             String? @db.VarChar(255)
+  image_url        String?
+  remote_image_url String?
+  link_url         String?
+}
+
+model Shop_17 {
+  pid            Int     @id
+  pname          String? @db.VarChar(255)
+  cat_id         Int?
+  price          Float?  @db.Real
+  img_url        String?
+  remote_img_url String?
+}
