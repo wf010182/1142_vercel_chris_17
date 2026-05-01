@@ -35,7 +35,8 @@
     "src/app/grocery_17/_components/SingleItem_17.jsx",
     "src/app/grocery_db_17/_components/SingleItem_17.tsx",
     "src/app/grocery_db_17/_components/Items_17.tsx",
-    "src/app/grocery_db_17/_components/Form_17.tsx"
+    "src/app/grocery_db_17/_components/Form_17.tsx",
+    "src/actions/blog.action_17.tss"
   ],
   "exclude": ["node_modules"]
 }
