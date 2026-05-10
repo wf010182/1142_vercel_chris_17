@@ -19,6 +19,7 @@ import {
 import Link from 'next/link'
 
 import { ModeToggle } from './ModeToggle'
+import { Button } from '@/components/ui/button'
 
 const NavbarMain_17 = () => {
   return (
@@ -57,37 +58,21 @@ const NavbarMain_17 = () => {
           <MenubarContent>
             <MenubarGroup>
               <MenubarItem>
-                <Link href='/blog_17'>Blog_17</Link>
+                <Link href='/mid_17'>Blog_17</Link>
               </MenubarItem>
               <MenubarItem>
-                <Link href='/blog_db_17'>Blog_db_17</Link>
+                <Link href='/mid_17'>Blog_db_17</Link>
               </MenubarItem>
             </MenubarGroup>
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
           <MenubarTrigger>Midtem</MenubarTrigger>
-          <MenubarContent className='w-44'>
+          <MenubarContent>
             <MenubarGroup>
-              <MenubarCheckboxItem>Bookmarks Bar</MenubarCheckboxItem>
-              <MenubarCheckboxItem checked>Full URLs</MenubarCheckboxItem>
-            </MenubarGroup>
-            <MenubarSeparator />
-            <MenubarGroup>
-              <MenubarItem inset>
-                Reload <MenubarShortcut>⌘R</MenubarShortcut>
+              <MenubarItem>
+                <Link href='/mid_17'>Mid_17</Link>
               </MenubarItem>
-              <MenubarItem disabled inset>
-                Force Reload <MenubarShortcut>⇧⌘R</MenubarShortcut>
-              </MenubarItem>
-            </MenubarGroup>
-            <MenubarSeparator />
-            <MenubarGroup>
-              <MenubarItem inset>Toggle Fullscreen</MenubarItem>
-            </MenubarGroup>
-            <MenubarSeparator />
-            <MenubarGroup>
-              <MenubarItem inset>Hide Sidebar</MenubarItem>
             </MenubarGroup>
           </MenubarContent>
         </MenubarMenu>
@@ -136,6 +121,11 @@ const NavbarMain_17 = () => {
           </MenubarContent>
         </MenubarMenu>
       </Menubar>
+      <div className='flex item-center gap-4'>
+        <Link href='/store_17'>
+          <Button variant='outline'>Store</Button>
+        </Link>
+      </div>
       <div>
         <ModeToggle />
       </div>
