@@ -47,3 +47,8 @@ export type Category_17 = Prisma.Category_17Model
  * 
  */
 export type Shop_17 = Prisma.Shop_17Model
+/**
+ * Model Product
+ * 
+ */
+export type Product = Prisma.ProductModel

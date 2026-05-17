@@ -1,9 +1,8 @@
-'use client'
-
 import { ModeToggle } from './ModeToggle'
 import LogoStore_17 from './LogoStore_17'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import StoreSignInOutAuth_17 from './StoreSignInOutAuth_17'
 
 const NavbarStore_17 = () => {
   return (
@@ -14,6 +13,7 @@ const NavbarStore_17 = () => {
           <Button variant='secondary'>TKUdemo</Button>
         </Link>
         <ModeToggle />
+        <StoreSignInOutAuth_17 />
       </div>
     </div>
   )
